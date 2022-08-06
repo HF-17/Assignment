@@ -30,7 +30,7 @@ public class Main {
         avg += mzk;
 
 
-        System.out.println("Your average is: " + avg/6);
+        System.out.println("Your average is: " + avg/6.0);
         String str = avg>60 ? "You are PASS THE CLASS" : "You are NOT PASS THE CLASS";
         System.out.println(str);
 
