@@ -14,7 +14,7 @@ public class Main {
         System.out.println("Please enter second side of triangle: ");
         b = input.nextInt();
 
-        c = Math.sqrt((a*a) + (b*b));
+        c = Math.hypot(a,b); // Math.sqrt((a*a) + (b*b));
         u = (a + b + c)/2;
         area = (a*b)/2.0;
         System.out.println("Hypotenuse is: " + c);
