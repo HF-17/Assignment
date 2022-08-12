@@ -41,18 +41,11 @@ public class Main {
             total = discount_price;
         }
 
-        if (age <= 0){
+        if (age <= 0 || km<=0 || (!(type == 1 || type == 2))){
             System.out.println("EROR");
             value++;
         }
-        if (km <= 0) {
-            System.out.println("EROR");
-            value++;
-        }
-        if (!(type == 1 || type == 2)){
-            System.out.println("EROR");
-            value++;
-        }
+
         if (value == 0){
             System.out.println("Total" + total + "$");
         }
