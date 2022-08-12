@@ -1,4 +1,4 @@
-package tasks.program_finding_even_number;
+package tasks.program_finding_number;
 
 import java.util.Scanner;
 
