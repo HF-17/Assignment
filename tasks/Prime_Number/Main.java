@@ -6,6 +6,7 @@ public class Main {
     public static void main(String[] args) {
         int temp=3,flag=0,m;
 
+        System.out.println("2");
 
         while (temp<100) {
 
