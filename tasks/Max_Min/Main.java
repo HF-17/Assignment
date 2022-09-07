@@ -29,8 +29,10 @@ public class Main {
 
             }
         }
-        System.out.println(max);
-        System.out.println(min);
+        System.out.println("Dizi: " + Arrays.toString(numbers));
+        System.out.println("Entered number: " + n);
+        System.out.println("Max" + max);
+        System.out.println("Min" + min);
 
     }
 }
