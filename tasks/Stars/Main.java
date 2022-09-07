@@ -13,6 +13,9 @@ public class Main {
                 } else {
                     letter[i][j] = "   ";
                 }
+                if (j==3 && (i==0 || i==3 || i==6)) {
+                    letter[i][j] = " ";
+                }
             }
         }
 
