@@ -11,7 +11,7 @@ public class Main {
                 } else if (j == 0 || j == 3) {
                     letter[i][j] = " * ";
                 } else {
-                    letter[i][j] = "   ";
+                    letter[i][j] = "  ";
                 }
                 if (j==3 && (i==0 || i==3 || i==6)) {
                     letter[i][j] = " ";
