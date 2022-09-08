@@ -6,7 +6,6 @@ public class Main {
     public static void main(String[] args) {
         int[] numbers = {10, 20, 20, 10, 10, 20, 5, 20, 30, 30};
         int frekans = 1;
-        int control = 1;
 
         Arrays.sort(numbers);
         // [5, 10, 10, 10, 20, 20, 20, 20]
