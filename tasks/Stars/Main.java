@@ -18,7 +18,7 @@ public class Main {
                 }
             }
         }
-
+ 
         for (String[] row: letter) {
             for (String col: row){
                 System.out.print(col);
