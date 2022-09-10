@@ -8,7 +8,7 @@ public class Main {
         int frekans = 1;
 
         Arrays.sort(numbers);
-        // [5, 10, 10, 10, 20, 20, 20, 20]
+        // [5, 10, 10, 10, 20, 20, 20, 20, 30, 30]
 
 
 
