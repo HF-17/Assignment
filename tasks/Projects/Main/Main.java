@@ -1,4 +1,4 @@
-package tasks.MineSweeper.Main;
+package tasks.Projects.Main;
 
 public class Main {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package tasks.MineSweeper.Main;
+package tasks.Projects.Main;
 
 import java.util.Random;
 import java.util.Scanner;
