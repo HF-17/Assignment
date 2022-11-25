@@ -16,7 +16,7 @@ public class Throw {
         }
     }
 
-    public static void checkedAge(int age){
+    public static void checkedAge(int age) throws Exception{
         if (age<18){
             throw new ArithmeticException("Yaşınıç tutmuyor");
         }

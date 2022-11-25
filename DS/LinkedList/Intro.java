@@ -1,11 +1,12 @@
 package DS.LinkedList;
 
 import java.util.LinkedList;
+import java.util.List;
 
 public class Intro {
     public static void main(String[] args) {
 
-        LinkedList<String> ls = new LinkedList<>();
+        LinkedList<String> ls = new LinkedList<>(); // OR ->  List<String> list  = new LinkedList<>();
 
         ls.push("A");
         ls.push("B");
@@ -22,7 +23,7 @@ public class Intro {
        // ls.poll();
 
         ls.add(4,"E");
-        ls.remove(4);
+        //ls.remove(4);
 
         System.out.println(ls.peekFirst());
         System.out.println(ls.peekLast());
